@@ -1,0 +1,11 @@
+<div class="container">
+    <h1> <%= data.name %>   <%= data.sys.country %> </h1>
+    <h1>Temperature = <%= (data.main.temp - 273.15).toPrecision(4) %> °C </h1>
+    <h1>Wind Speed = <%= data.wind.speed %> KMPH</h1>
+    <h1> <%= data.weather[0].main %> </h1>
+
+    <br><br><br>
+    <form action="/">
+        <button type="submit">Another City</button>
+    </form>
+</div>

@@ -1,0 +1,23 @@
+.container {
+    background-color: azure;
+    width: 800px;
+    height: 800px;
+    margin : auto ;
+    margin-top: 50px;
+    border : 1px solid #ccc
+}
+
+
+input {
+    width : 450px;
+    height : 50px;
+    font-size: 45px;
+    margin-left: 20%;
+}
+
+button {
+    height: 35px;
+    font-size: 25px;
+    background-color: cornflowerblue;
+    margin-left: 45%;
+}
